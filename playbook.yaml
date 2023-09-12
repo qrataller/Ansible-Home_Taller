@@ -1,0 +1,8 @@
+---
+  - name: My first play
+    hosts: all
+      - name: Ping my hosts
+        builtin
+      - name: Print message
+        debug
+          msg: Hello world
